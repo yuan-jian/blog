@@ -1,0 +1,6 @@
+username: yuan-jian
+baseurl: /blog
+markdown: redcarpet
+safe: false
+pygments: true
+title: 元件BLOG
