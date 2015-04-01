@@ -1,4 +1,9 @@
-#solr学习(1)：solr与tomacat整合
+---
+layout: default
+title: solr学习(1)：solr与tomacat整合
+comments: true
+---
+
 
 ###准备工作
 1. `solr-4.7.2.zip`[下载](http://mirror.bit.edu.cn/apache/lucene/solr/4.7.2/)
