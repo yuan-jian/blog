@@ -5,6 +5,7 @@ comments: true
 ---
 
 
+
 ###准备工作
 1. `solr-4.7.2.zip`[下载](http://mirror.bit.edu.cn/apache/lucene/solr/4.7.2/)
 2. `apache-tomcat-7.0.59.zip`[下载](http://mirror.bit.edu.cn/apache/tomcat/tomcat-7/v7.0.59/bin/)
