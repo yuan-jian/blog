@@ -24,13 +24,11 @@ comments: true
 7. 在tomcat的webapps/solr/WEB-INF下新建一个classes目录，并将solr目录example/resources下的log4j.properties文件复制到该classes目录中，否则日志模块无法正常工作；
 8. 在tomcat的webapps/solr/WEB-INF下找到web.xml文件，用于配置环境变量的标签去掉注释，并修改环境变量，将新建的tomcat-solr目录添加到\<env-entry-value\>标签中：
 
-```
-<env-entry>
-    <env-entry-name>solr/home</env-entry-name>
-    <env-entry-value>E:\solr\tomcat-solr</env-entry-value>
-    <env-entry-type>java.lang.String</env-entry-type>
-</env-entry>
-```
+        <env-entry>
+            <env-entry-name>solr/home</env-entry-name>
+            <env-entry-value>E:\solr\tomcat-solr</env-entry-value>
+            <env-entry-type>java.lang.String</env-entry-type>
+        </env-entry>
 
 9. 启动tomcat,输入http://localhost:8080/solr 进入到solr的管理界面：
 ![solr与tomcat整合-5](https://github.com/yuan-jian/blog/blob/gh-pages/images/solr/solr_tomcat-5.png?raw=true)
