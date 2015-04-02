@@ -22,7 +22,7 @@ comments: true
 6. 将solr目录example/lib/ext所有jar包复制到tomcat的webapps/solr/WEB-INF/lib目录中，一共5个，是solr的独立日志处理模块：
 ![solr与tomcat整合-4](http://f.picphotos.baidu.com/album/s%3D1100%3Bq%3D90/sign=d774aa73f6d3572c62e298ddba235856/b2de9c82d158ccbfb12448a01dd8bc3eb0354194.jpg)
 7. 在tomcat的webapps/solr/WEB-INF下新建一个classes目录，并将solr目录example/resources下的log4j.properties文件复制到该classes目录中，否则日志模块无法正常工作；
-8. 在tomcat的webapps/solr/WEB-INF下找到web.xml文件，用于配置环境变量的标签去掉注释，并修改环境变量，将新建的tomcat-solr目录添加到<env-entry-value>标签中：
+8. 在tomcat的webapps/solr/WEB-INF下找到web.xml文件，用于配置环境变量的标签去掉注释，并修改环境变量，将新建的tomcat-solr目录添加到\<env-entry-value\>标签中：
 ```
 <env-entry>
     <env-entry-name>solr/home</env-entry-name>
