@@ -31,5 +31,6 @@ comments: true
     <env-entry-type>java.lang.String</env-entry-type>
 </env-entry>
 ```
+
 9. 启动tomcat,输入http://localhost:8080/solr 进入到solr的管理界面：
 ![solr与tomcat整合-5](https://github.com/yuan-jian/blog/blob/gh-pages/images/solr/solr_tomcat-5.png?raw=true)
