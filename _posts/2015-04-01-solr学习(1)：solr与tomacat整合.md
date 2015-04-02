@@ -12,7 +12,7 @@ comments: true
 
 ###主要步骤
 1. 解压solr-4.7.2.zip到E:\solr\software，解压后文件目录如下：
-![solr与tomcat整合-1](/image/solr/solr_tomcat-1.png)
+![solr与tomcat整合-1](/images/solr/solr_tomcat-1.png)
 2. 解压apache-tomcat-7.0.59.zip到E:\solr\software，解压后文件目录如下：
 ![solr与tomcat整合-2](http://h.picphotos.baidu.com/album/s%3D1100%3Bq%3D90/sign=7b178650e2cd7b89ed6c3e823f1479d6/faf2b2119313b07e6590d69208d7912397dd8c7f.jpg)
 3. 将solr目录中的example/webapps中的solr.war复制到tomcat的webapps目录中，解压solr.war包（或启动tomcat解压），并删除solr.war包；
